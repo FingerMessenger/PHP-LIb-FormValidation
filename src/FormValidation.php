@@ -1,6 +1,6 @@
 <?php
 
-namespace FingerMessenger\Lib;
+namespace FingerMessenger;
 
 class FormValidation
 {

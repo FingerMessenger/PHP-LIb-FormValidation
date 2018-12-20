@@ -4,7 +4,7 @@ require "./FormValidation.php";
 require "../vendor/autoload.php";
 require "../vendor/nette/tester/src/bootstrap.php";
 
-use FingerMessenger\Lib\FormValidation;
+use FingerMessenger\FormValidation;
 use Tester\Assert;
 
 Tester\Environment::setup();
