@@ -1,6 +1,16 @@
-Install
+## Install
+	
 	composer require fingermessenger/formvalidation
-Usage
+
+## Usage
+
+```php
+use FingerMessenger\FormValidation;
+```
+
+##Example
+
+```php
 	class FormController extends FormValidation
 	{
     	public function myFilter($data)
@@ -46,3 +56,4 @@ Usage
         	}
     	}
 	}
+```
