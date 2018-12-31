@@ -8,7 +8,7 @@
 use FingerMessenger\FormValidation;
 ```
 
-##Example
+## Example
 
 ```php
 class FormController extends FormValidation
