@@ -11,8 +11,10 @@ use FingerMessenger\FormValidation;
 ## Example
 
 ```php
-class FormController extends FormValidation
+class FormController
 {
+    use FormValidation;
+
     public function myFilter($data)
     {
         return substr($data, 0, 20);
