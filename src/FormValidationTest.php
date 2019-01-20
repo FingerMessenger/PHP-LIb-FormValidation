@@ -9,8 +9,10 @@ use Tester\Assert;
 
 Tester\Environment::setup();
 
-class FormController extends FormValidation
+class FormController
 {
+    use FormValidation;
+
     public function myFilter($data)
     {
         return substr($data, 0, 20);
