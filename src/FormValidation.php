@@ -2,7 +2,7 @@
 
 namespace FingerMessenger;
 
-class FormValidation
+trait FormValidation
 {
 
     /**
